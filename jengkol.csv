@@ -1,5 +1,5 @@
-title,permalink,body,published_at,filter,categories,tags,jenis,brand,description,image,image1,image2,image3,image4,image5,product,price,hargajual,profit,sku,kondisi
-Jual Kemeja / Shirt Casual Pria - RTR 008 Murah,rtr-008,"
+title,permalink,body,published_at,filter,categories,tags,jenis,brand,description,image,image1,image2,image3,image4,image5,product,price,hargadropship,minimalprice,sku,kondisi
+Jual Kemeja Casual Pria - RNZ 002 Murah,rnz-002,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -24,7 +24,7 @@ Jual Kemeja / Shirt Casual Pria - RTR 008 Murah,rtr-008,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -47,7 +47,7 @@ Jual Kemeja / Shirt Casual Pria - RTR 008 Murah,rtr-008,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Kemeja / Shirt Casual Pria - RTR 008 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Kemeja Pria ini terbuat dari bahan COTTON.<br/>Kode : RTR 008<br/>Warna : HITAM KOMBINASI<br/>Bahan : COTTON<br/>Ukuran : S ~ XL<br/>Berat : 500 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Kemeja Casual Pria - RNZ 002 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : RNZ 002<br/>Warna : BIRU<br/>Bahan : DENIM<br/>Ukuran : M ~ XL<br/>Berat : 500 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -60,8 +60,8 @@ Jual Kemeja / Shirt Casual Pria - RTR 008 Murah,rtr-008,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-26,html,kemeja-pria,raindoz,kemeja-pria,raindoz,"Kemeja Pria Bahan COTTON, Ukuran S ~ XL, Warna HITAM KOMBINASI",https://images.lipatan.com/katalog-raindoz-2018/foto-produk-satuan/rtr-008.jpg,-/-,-/-,-/-,-/-,-/-,Kemeja / Shirt Casual Pria - RTR 008,Rp 114.900,Rp 132.900,Rp 18.000,RTR 008,Baru
-Jual Kemeja / Shirt Casual Pria - RBC 002 Murah,rbc-002,"
+     </div><!--/category-tab-->",2019-01-17,html,kemeja-pria,raindoz,kemeja-pria,raindoz,"Kemeja Pria Bahan DENIM, Warna BIRU, Size M ~ XL",https://images.lipatan.com/katalog-raindoz-2019/foto-produk-satuan/rnz-002.jpg,-/-,-/-,-/-,-/-,-/-,Kemeja Casual Pria - RNZ 002,Rp 170.900,Rp 139.900,Rp 153.900,RNZ 002,Baru
+Jual Kemeja Casual Pria - RNZ 004 Murah,rnz-004,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -86,7 +86,7 @@ Jual Kemeja / Shirt Casual Pria - RBC 002 Murah,rbc-002,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -109,7 +109,7 @@ Jual Kemeja / Shirt Casual Pria - RBC 002 Murah,rbc-002,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Kemeja / Shirt Casual Pria - RBC 002 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Kemeja Pria ini terbuat dari bahan COTTON.<br/>Kode : RBC 002<br/>Warna : BIRU KOMBINASI<br/>Bahan : COTTON<br/>Ukuran : S ~ XL<br/>Berat : 500 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Kemeja Casual Pria - RNZ 004 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : RNZ 004<br/>Warna : BIRU KOMBINASI<br/>Bahan : AKRILIT<br/>Ukuran : M ~ XL<br/>Berat : 500 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -122,8 +122,8 @@ Jual Kemeja / Shirt Casual Pria - RBC 002 Murah,rbc-002,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-26,html,kemeja-pria,raindoz,kemeja-pria,raindoz,"Kemeja Pria Bahan COTTON, Ukuran S ~ XL, Warna BIRU KOMBINASI",https://images.lipatan.com/katalog-raindoz-2018/foto-produk-satuan/rbc-002.jpg,-/-,-/-,-/-,-/-,-/-,Kemeja / Shirt Casual Pria - RBC 002,Rp 118.900,Rp 136.900,Rp 18.000,RBC 002,Baru
-Jual Kemeja / Shirt Casual Pria - RTR 003 Murah,rtr-003,"
+     </div><!--/category-tab-->",2019-01-17,html,kemeja-pria,raindoz,kemeja-pria,raindoz,"Kemeja Pria Bahan AKRILIT, Warna BIRU KOMBINASI, Size M ~ XL",https://images.lipatan.com/katalog-raindoz-2019/foto-produk-satuan/rnz-004.jpg,-/-,-/-,-/-,-/-,-/-,Kemeja Casual Pria - RNZ 004,Rp 147.900,Rp 120.900,Rp 132.900,RNZ 004,Baru
+Jual Kemeja Casual Pria - RBC 002 Murah,rbc-002,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -148,7 +148,7 @@ Jual Kemeja / Shirt Casual Pria - RTR 003 Murah,rtr-003,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -171,7 +171,7 @@ Jual Kemeja / Shirt Casual Pria - RTR 003 Murah,rtr-003,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Kemeja / Shirt Casual Pria - RTR 003 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Kemeja Pria ini terbuat dari bahan DENIM.<br/>Kode : RTR 003<br/>Warna : ABU KOMBINASI<br/>Bahan : DENIM<br/>Ukuran : S ~ XL<br/>Berat : 500 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Kemeja Casual Pria - RBC 002 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : RBC 002<br/>Warna : BIRU KOMBINASI<br/>Bahan : COTTON<br/>Ukuran : S ~ XL<br/>Berat : 500 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -184,8 +184,8 @@ Jual Kemeja / Shirt Casual Pria - RTR 003 Murah,rtr-003,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-26,html,kemeja-pria,raindoz,kemeja-pria,raindoz,"Kemeja Pria Bahan DENIM, Ukuran S ~ XL, Warna ABU KOMBINASI",https://images.lipatan.com/katalog-raindoz-2018/foto-produk-satuan/rtr-003.jpg,-/-,-/-,-/-,-/-,-/-,Kemeja / Shirt Casual Pria - RTR 003,Rp 108.900,Rp 125.900,Rp 17.000,RTR 003,Baru
-Jual Kemeja / Shirt Casual Pria - RBC 006 Murah,rbc-006,"
+     </div><!--/category-tab-->",2019-01-17,html,kemeja-pria,raindoz,kemeja-pria,raindoz,"Kemeja Pria Bahan COTTON, Warna BIRU KOMBINASI, Size S ~ XL",https://images.lipatan.com/katalog-raindoz-2019/foto-produk-satuan/rbc-002.jpg,-/-,-/-,-/-,-/-,-/-,Kemeja Casual Pria - RBC 002,Rp 157.900,Rp 128.900,Rp 141.900,RBC 002,Baru
+Jual Kemeja Casual Pria - RNZ 005 Murah,rnz-005,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -210,7 +210,7 @@ Jual Kemeja / Shirt Casual Pria - RBC 006 Murah,rbc-006,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -233,7 +233,7 @@ Jual Kemeja / Shirt Casual Pria - RBC 006 Murah,rbc-006,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Kemeja / Shirt Casual Pria - RBC 006 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Kemeja Pria ini terbuat dari bahan COTTON.<br/>Kode : RBC 006<br/>Warna : HITAM KOMBINASI<br/>Bahan : COTTON<br/>Ukuran : S ~ XL<br/>Berat : 500 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Kemeja Casual Pria - RNZ 005 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : RNZ 005<br/>Warna : ABU KOMBINASI<br/>Bahan : AKRILIT<br/>Ukuran : M ~ XL<br/>Berat : 500 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -246,4 +246,66 @@ Jual Kemeja / Shirt Casual Pria - RBC 006 Murah,rbc-006,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-26,html,kemeja-pria,raindoz,kemeja-pria,raindoz,"Kemeja Pria Bahan COTTON, Ukuran S ~ XL, Warna HITAM KOMBINASI",https://images.lipatan.com/katalog-raindoz-2018/foto-produk-satuan/rbc-006.jpg,-/-,-/-,-/-,-/-,-/-,Kemeja / Shirt Casual Pria - RBC 006,Rp 118.900,Rp 136.900,Rp 18.000,RBC 006,Baru
+     </div><!--/category-tab-->",2019-01-17,html,kemeja-pria,raindoz,kemeja-pria,raindoz,"Kemeja Pria Bahan AKRILIT, Warna ABU KOMBINASI, Size M ~ XL",https://images.lipatan.com/katalog-raindoz-2019/foto-produk-satuan/rnz-005.jpg,-/-,-/-,-/-,-/-,-/-,Kemeja Casual Pria - RNZ 005,Rp 162.900,Rp 132.900,Rp 146.900,RNZ 005,Baru
+Jual Kemeja Casual Pria - RBC 006 Murah,rbc-006,"
+     <div class=""product-details""><!--product-details-->
+      <div class=""col-sm-5"">
+       <div class=""view-product"">
+        <img src=""{{ page.image }}"" alt=""{{ page.product }}"" title=""{{ page.product }}"" />
+        <h3><a style=""text-decoration: none; color: #ffffff"" href=""{{ page.image }}"" target=""_blank"" title=""Klik disini untuk memperbesar"">ZOOM</a></h3>
+       </div>
+      </div>
+
+      <div class=""col-sm-7"">
+       <div class=""product-information""><!--/product-information-->
+        <h1>{{ page.product }}</h1>
+        <p>SKU: {{ page.sku }}</p>
+        <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
+        <span>
+         <span>{{ page.price }}</span>        
+         <label>Beli:<a href=""{{ site.url }}/beli"" target=""_blank"" title=""Beli Sekarang"">
+           <script type=""text/javascript"">
+   <!--
+   document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%0d%0a%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%0d%0a%09%42%65%6c%69%20%53%65%6b%61%72%61%6e%67%0d%0a%3c%2f%62%75%74%74%6f%6e%3e'));
+   //-->
+   </script>
+          </a>
+         </label>
+        </span>
+        {% include dropship-login.html %} 
+        <p><b>Kondisi:</b> {{ page.kondisi }}</p>
+        <p><b>Deskripsi:</b> {{ page.description }}</p>
+        {% include shareit.html %}
+       </div><!--/product-information-->
+      </div>
+     </div><!--/product-details-->
+     
+     <div class=""category-tab shop-details-tab""><!--category-tab-->
+      <div class=""col-sm-12"">
+       <ul class=""nav nav-tabs"">
+        <li class=""active""><a href=""{{ site.url }}{{ page.url }}#keterangan"" data-toggle=""tab"" title=""Keterangan"">Keterangan</a></li>        
+       </ul>
+      </div>
+      <div class=""tab-content"">
+       <div class=""tab-pane fade active in"" id=""keterangan"" >
+        <div class=""col-sm-12"">
+         <h2>{{ page.product }}</h2>         
+         <ol class=""breadcrumb"">
+            <li class=""active"">Tag :</li>
+            <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
+            <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
+         </ol>         
+         <p>Kemeja Casual Pria - RBC 006 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : RBC 006<br/>Warna : HITAM KOMBINASI<br/>Bahan : COTTON<br/>Ukuran : S ~ XL<br/>Berat : 500 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         </p>
+
+         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
+         Gudang : WRH-1<br>
+         Lokasi : Bandung</p>
+
+         {% include disqus.html %}
+         
+        </div>
+       </div>       
+       
+      </div>
+     </div><!--/category-tab-->",2019-01-17,html,kemeja-pria,raindoz,kemeja-pria,raindoz,"Kemeja Pria Bahan COTTON, Warna HITAM KOMBINASI, Size S ~ XL",https://images.lipatan.com/katalog-raindoz-2019/foto-produk-satuan/rbc-006.jpg,-/-,-/-,-/-,-/-,-/-,Kemeja Casual Pria - RBC 006,Rp 157.900,Rp 128.900,Rp 141.900,RBC 006,Baru
